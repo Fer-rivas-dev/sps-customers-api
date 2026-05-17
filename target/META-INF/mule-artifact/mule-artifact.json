@@ -1,0 +1,31 @@
+{
+  "configs": [
+    "implementation.xml",
+    "global.xml"
+  ],
+  "secureProperties": [],
+  "supportedJavaVersions": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:sps-customers-api:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.11.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "config-dev.yaml",
+        "config-local.yaml",
+        "global.xml",
+        "implementation.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  },
+  "javaSpecificationVersions": [
+    "21"
+  ]
+}
