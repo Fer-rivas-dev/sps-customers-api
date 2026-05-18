@@ -4,7 +4,7 @@
 
 	<groupId>com.mycompany</groupId>
 	<artifactId>sps-customers-api</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
 
 	<name>sps-customers-api</name>
@@ -36,6 +36,7 @@
 							<artifactId>mysql-connector-java</artifactId>
 						</sharedLibrary>
 					</sharedLibraries>
+					<classifier>---- select project type ----</classifier>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -65,12 +66,12 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.30</version>
 		</dependency>
-        <dependency>
-            <groupId>com.mulesoft.modules</groupId>
-            <artifactId>mule-secure-configuration-property-module</artifactId>
-            <version>1.2.6</version>
-            <classifier>mule-plugin</classifier>
-        </dependency>
+		<dependency>
+			<groupId>com.mulesoft.modules</groupId>
+			<artifactId>mule-secure-configuration-property-module</artifactId>
+			<version>1.2.6</version>
+			<classifier>mule-plugin</classifier>
+		</dependency>
 	</dependencies>
 
 	<repositories>
