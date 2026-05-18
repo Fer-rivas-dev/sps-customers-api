@@ -1,8 +1,8 @@
 db:
   host: "mudb.learn.mulesoft.com"
   port: "3306"
-  user: "![/WNberPKMGM2kFUFT6mMTQ==]"
-  password: "![/WNberPKMGM2kFUFT6mMTQ==]"
+  user: "mule"
+  password: "mule"
   database: "training"
 http:
   port: "8081"

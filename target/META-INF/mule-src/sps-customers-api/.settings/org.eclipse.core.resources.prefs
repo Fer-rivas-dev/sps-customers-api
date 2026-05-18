@@ -1,2 +1,5 @@
 eclipse.preferences.version=1
 encoding/<project>=UTF-8
+org.eclipse.jdt.core.compiler.compliance=17
+org.eclipse.jdt.core.compiler.source=17
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=17
